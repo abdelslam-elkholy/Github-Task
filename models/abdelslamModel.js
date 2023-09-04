@@ -7,6 +7,8 @@ const reviewSchema = new mongoose.Schema(
       trim: true,
       minLength: 2,
       maxLength: 400,
+    },name:{
+      type:Number
     },
     rate: {
       type: Number,
